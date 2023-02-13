@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>e-Library Management System</title>
+<link rel="stylesheet" href="CSS/Signup.css">
+</head>
+<body>
+    <form action="ReaderController" method="get">
+        <div class="divi">
+            <h2>Add Reader</h2>
+            <!-- NAME -->
+            <div class="row">
+                <div class="div30">
+                    <label>Name:</label>
+                </div>
+                <div class="div60">
+                    <input type="text" name ="name" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <!-- DEGREE -->
+            <div class="row">
+                <div class="div30">
+                    <label>Degree:</label>
+                </div>
+                <div class="div60">
+                    <input type="text" name ="degree" placeholder="Enter the degree" required>
+                </div>
+            </div>
+            <!-- PHONE -->
+            <div class="row">
+                <div class="div30">
+                    <label>Phone:</label>
+                </div>
+                <div class="div60">
+                    <input type="text" name ="phone" placeholder="Enter your phone number" required>
+                </div>
+            </div>
+            <!-- DOI -->
+            <div class="row">
+                <div class="div30">
+                    <label>Date of Issue:</label>
+                </div>
+                <div class="div60">
+                    <input type="date" name="doi" required>
+                </div>
+            </div>
+            <!-- DOR -->
+            <div class="row">
+                <div class="div30">
+                    <label>Date of Return:</label>
+                </div>
+                <div class="div60">
+                    <input type="date" name="dor" required>
+                </div>
+            </div>
+            <!-- BOOK NAME -->
+            <div class="row">
+                <div class="div30">
+                    <label>Book name:</label>
+                </div>
+                <div class="div60">
+                    <input type="text" name ="bookname" placeholder="Enter your the book name" required>
+                </div>
+            </div>
+            <!-- ADDING READER BUTTON -->
+            <div class="flex">
+                <input type="submit" value="Add Reader" class="divsubmit">
+                <a href="home.html" class="divsubmit">Cancel</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

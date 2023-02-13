@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+        body {
+            background-image: url('../Images/BG_ContactForm.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Trebuchet MS';
+            font-size: 180%;
+            color: maroon;
+        }
+
+        .divi {
+            background-color: whitesmoke;
+            width: 500px;
+            border: 2px solid maroon;
+            padding: 20px;
+            font-family: 'Trebuchet MS';
+            font-size: 18px;
+            margin: auto;
+            outline: thick solid aliceblue;
+        }
+
+        input {
+            border: 2.5px solid gray;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .div30 {
+            float: left;
+            width: 200px;
+            margin-top: 15px;
+        }
+
+        .div60 {
+            float: left;
+            width: 300px;
+            margin-top: 15px;
+        }
+
+        .divsubmit {
+        width: 50%;
+        margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: whitesmoke;
+            background-color: maroon;
+            margin-top: 20px;
+            text-align: center;
+            opacity: 0.6;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .divsubmit:hover{
+            opacity: 1;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .flex {
+        	display: flex;
+        }
